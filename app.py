@@ -9,7 +9,7 @@ st.set_page_config(page_title="Simulador de Lanzamiento Vertical - WEB", layout=
 st.title("🚀 Simulador de Lanzamiento Vertical Interactivo")
 st.markdown("""
 Esta aplicación web simula el movimiento de un objeto lanzado verticalmente desde una altura. 
-Utiliza Streamlit para la interfaz y Plotly para las gráficas, ofreciendo una experiencia fluida y sin parpadeos.
+Realizado por Juan Daza, Juan Vargas y Samuel Zorro - 1103 - CMSB 2026
 """)
 
 # --- Sidebar: Parámetros del Problema ---
@@ -193,4 +193,5 @@ def animate_simulation():
 animate_simulation()
 
 st.markdown("---")
+
 st.caption("Aplicación creada con Streamlit y Plotly para simulación física.")
